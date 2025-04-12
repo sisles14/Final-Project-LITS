@@ -1,0 +1,44 @@
+<!-- Started Thursday/Friday March 27/28, 2025 -->
+<!-- "Finished" Monday 7, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Cast & Directors </title>
+    <link rel="stylesheet" href= "litsdirectors_actors_voice actorss.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src = "litsdirectors_actors_voice actorss.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Main Page and Contacts & Credits Page Button -->
+        <div class = "top-left"> 
+            <a href = "lostinthescreen.html" class = "info-button back-link"><i class = "fas fa-sign-out-alt"></i> Back to Main Page</a>
+        </div>
+        <div class = "info-buttons">
+            <a href = "litscontactpage.html" class = "info-button"><i class = "fas fa-info-circle"></i> About Me </a>
+            <a href = "litscontactpage.html" class = "info-button"><i class = "fas fa-star"></i> Credits </a>
+        </div>
+        <h1> Behind The Scenes </h1>
+        <h4> The Amazing People Behind My Favorites </h4>
+    </header>
+
+    <!-- Filter dropdown  -->
+    <div class = "filter-bar">
+        <input type = "text" id = "searchInput" placeholder="Search by name..." oninput = "filterPeople()">
+        <select id="sortFilter" onchange ="sortPeople()">
+            <option value = ""> Sort By </option>
+            <option value = "az"> A-Z </option>
+            <option value = "za"> Z-A </option>
+        </select>
+    </div>
+
+    <section class = "people-section">
+        <div id = "peopleGrid" class = "people-grid"></div>
+    </section>
+
+<!-- Back to Top button -->
+<button id="backToTop" title="Back to Top"><i class="fas fa-camera"></i></button>
+</body>
+</html>
