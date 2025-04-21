@@ -1,4 +1,5 @@
 It is recommended to start with the Login Page, unless you want to have to continuously login to the page.
+The username is "LITSuser" and the password is "SYATM".
 
 The Lost In The Screen homepage is meant to show an overview of all the movies I've watched and liked. When you click one of the movies, it opens up a modal that showcases the movie poster, the description, and the genre(s).
 
